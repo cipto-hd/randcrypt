@@ -1,0 +1,43 @@
+{
+  "name": "randcrypt",
+  "version": "0.1.0",
+  "description": "Generate a cryptic strong random string",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "bin": "bin"
+  },
+  "bin": {
+    "rc": "./bin/randcrypt.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Cipto Hadi",
+    "url": "https://stackoverflow.com/users/3575693/cipto-hd"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "crypto-random-string": "^4.0.0"
+  },
+  "keywords": [
+    "random",
+    "string",
+    "text",
+    "id",
+    "identifier",
+    "slug",
+    "salt",
+    "pin",
+    "crypto",
+    "strong",
+    "secure",
+    "hex",
+    "secret",
+    "protect"
+  ]
+}
