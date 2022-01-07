@@ -20,11 +20,23 @@ npm install -g randcrypt # or using yarn: yarn global add randcrypt
 
 # Usage
 
-To use randcrypt we must supply with minimally one argument (`length`), optionallly type `argument`:
+To use randcrypt we must supply with minimally one argument ie `length`, optionallly `type` argument:
 
 ```bash
 rc [length] [type]
 ```
+
+for example: `rc 32 base64`.
+
+Here are the possible types that we can use:
+
+- hex,
+- base64,
+- url-safe,
+- numeric,
+- distinguishable,
+- ascii-printable,
+- alphanumeric.
 
 For simple help about randcrypt, run randcrypt without any arguments:
 

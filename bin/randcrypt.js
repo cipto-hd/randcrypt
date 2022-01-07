@@ -11,7 +11,7 @@ length = parseInt(length);
 
 if (!length) {
   console.info("You must provide valid length argument\n");
-  console.info("How to use: 'rc length type' => 'rc 32 base64'\n");
+  console.info("How to use: 'rc [length] [type]' => 'rc 32 base64'\n");
   console.info("Available types:\n", [
     "hex",
     "base64",
